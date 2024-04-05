@@ -34,7 +34,7 @@ const CreateMessage = ({
           throw new Error("Message text cannot be empty");
         }
         await updateMessage(messageNeedsEdit.messageId, messageText);
-        console.log("Your message edited successfully!"); // Added console log
+        //console.log("Your message edited successfully!");
       } else {
         if (!messageText.trim()) {
           throw new Error("Message text cannot be empty");
